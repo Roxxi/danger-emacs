@@ -57,6 +57,10 @@ Then, install the packages specified below. If you add new packages to the repo,
 * `M-x package-install [RET] nrepl [RET]`
 * 
 
+### Puppet
+
+* `M-x package-install [RET] puppet-mode [RET]`
+
 ## And you're done!
 
 Restart emacs and it should load with no errors! Feel free to add your own customizations to your `.emacs` and `.emacs.d` directories. As we find things that are good for the whole team, check them in- but create a test user on your local machine and make sure you update these installation steps as required.
