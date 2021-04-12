@@ -45,9 +45,7 @@
 ;;;
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize)
 
 
@@ -307,7 +305,7 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Markdown mode
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/danger-emacs/markdown-mode"))
+
 (require 'markdown-mode)
 (add-to-list 'auto-mode-alist '("\\.md$" . gfm-mode))
 (add-hook 'gfm-mode-hook 'turn-on-auto-fill)
